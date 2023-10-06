@@ -36,3 +36,8 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+/downloads
+/test_data
+/screenshots
+/itbootcamp_slider

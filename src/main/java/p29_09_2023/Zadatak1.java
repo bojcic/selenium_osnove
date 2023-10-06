@@ -10,14 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class Zadatak1 {
-//    Napisati program koji testira infinity scroll.
-//    Ucitati stranu https://web.dev/patterns/web-vitals-patterns/infinite-scroll/infinite-scroll/demo.html
-//    Selektujte delay od 2000ms, koristeci Select klasu.
-//            Skrol do Show more dugmeta koje se nalazi na dnu stranice
-//    Sacekajte da dugme bude klikljivo
-//    Klik na Show more dugme
-//    Sacekjate da broj elemenata bude X (X je koliko se kod vas ucitava)
-//    Sacekajte da dugme vise ne bude klikljivo
+    //Napisati program koji ucitava stranicu https://s.bootsnipp.com/iframe/klDWV i ceka da se
+    // ucita progress bar na 100% a zatim ispisuje tekst u konzoli “Stranica ucitana”
 public static void main(String[] args) throws InterruptedException {
 
 

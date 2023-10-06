@@ -36,5 +36,6 @@ public class Zadatak5 {
             js.executeScript("arguments[0].scrollIntoView();", headlines.get(i));
             System.out.println("Naslov " + (i+1) + ": " + headlines.get(i).getText());
         }
+        driver.quit();
     }
 }
